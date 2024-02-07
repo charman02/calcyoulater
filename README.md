@@ -4,16 +4,27 @@ using a stack data structure, which had to be implemented first as well.
 
 # Files
 DatumStack.h: Interface of DatumStack class
+
 DatumStack.cpp: Implementation of DatumStack class
+
 unit_tests.h: Unit tests used to test DatumStack member functions
+
 RPNCalc.h: Interface of RPNCalc class
+
 RPNCalc.cpp: Implementation of RPNCalc class
+
 main.cpp: Runs CalcYouLater program by calling run on object of RPNCalc class
+
 README: Explains program design and discusses specifics
+
 Makefile: Defines rules to create executable
+
 add.cyl: Carries out simple additions
+
 fact.cyl: Implements factorial function using RPNCalc commands
+
 fib.cyl: Implements Fibonacci function
+
 fib_debug.cyl: Uses Fibonacci to demonstrate a way to debug RPNCalc programs
 
 # Program
