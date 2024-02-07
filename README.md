@@ -1,8 +1,8 @@
-PROGRAM PURPOSE
+# Program Purpose
 The purpose of this program is to design and implement an RPN calculator
 using a stack data structure, which had to be implemented first as well.
 
-FILES
+# Files
 DatumStack.h: Interface of DatumStack class
 DatumStack.cpp: Implementation of DatumStack class
 unit_tests.h: Unit tests used to test DatumStack member functions
@@ -16,10 +16,11 @@ fact.cyl: Implements factorial function using RPNCalc commands
 fib.cyl: Implements Fibonacci function
 fib_debug.cyl: Uses Fibonacci to demonstrate a way to debug RPNCalc programs
 
-PROGRAM
-The make command compiles my program and ./CalcYouLater runs it.
+# Program
+  make CalcYouLater
+  ./CalcYouLater
 
-DATA STRUCTURES
+# Data Structures
 In order to implement RPNCalc, I utilized the DatumStack class, which is a
 stack data structure that I implemented using std::list. I used std::list
 to implement DatumStack because it seemed to have more member functions,
@@ -48,7 +49,7 @@ the user decides to redo the action, the program pushes the saved state back
 onto the stack and repeats the action. This approach allows the program to
 keep track of multiple levels of undo/redo.
 
-TESTING
+# Testing
 I used unit testing (unit_tests.h) to test the member functions of the
 DatumStack class. I manipulated the stack size, and tested different types
 of Datum objects for each function. For the RPNCalc class and the program as
