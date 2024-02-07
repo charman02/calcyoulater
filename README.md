@@ -16,7 +16,7 @@ fact.cyl: Implements factorial function using RPNCalc commands
 fib.cyl: Implements Fibonacci function
 fib_debug.cyl: Uses Fibonacci to demonstrate a way to debug RPNCalc programs
 
-# Program
+# Compile/Run
   make CalcYouLater
   ./CalcYouLater
 
